@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { View, TextInput, Button, StyleSheet, Text, Alert } from 'react-native';
-import axios from 'axios';
 
 const SignupScreen = () => {
   const [name, setName] = useState('');
